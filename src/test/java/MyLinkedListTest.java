@@ -14,8 +14,15 @@ public class MyLinkedListTest {
             myLinkedList.append(newWord);
         }
         myLinkedList.printMyNode();
-        MyNode<Object> searchNode = new MyNode<>("case");
+        MyNode<Object> searchNode = new MyNode<>("program");
         int pos = myLinkedList.search(searchNode);
-        Assertions.assertEquals(5,pos);
+        if(pos<0){
+            myLinkedList.append(searchNode);
+        }
+        else{
+            myLinkedList.remove(searchNode);
+        }
+        myLinkedList.printMyNode();
+//        Assertions.assertEquals(5,pos);
     }
 }

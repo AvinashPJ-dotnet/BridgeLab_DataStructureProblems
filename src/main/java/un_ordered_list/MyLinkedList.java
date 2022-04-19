@@ -92,7 +92,7 @@ public class MyLinkedList {
             head = tempNode.getNext(); // Changed head
             return;
         }
-        while (tempNode != null && tempNode.getNext() != removeNode) {
+        while (tempNode != null && tempNode.getNext().getKey() != removeNode.getKey()) {
             tempNode = tempNode.getNext();
         }
         if (tempNode == null)

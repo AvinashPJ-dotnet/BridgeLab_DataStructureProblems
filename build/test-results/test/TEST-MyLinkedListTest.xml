@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-19T13:35:10" hostname="AVINASHPJ-PC" time="17.066">
+<testsuite name="MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-19T13:59:07" hostname="AVINASHPJ-PC" time="0.036">
   <properties/>
-  <testcase name="givenArrayOfWords_WhenAddedAndSearch_ShouldMatchPosition()" classname="MyLinkedListTest" time="17.066"/>
+  <testcase name="givenArrayOfWords_WhenAddedAndSearch_ShouldMatchPosition()" classname="MyLinkedListTest" time="0.036"/>
   <system-out><![CDATA[My Node: hi->this->is->the->test->case
+My Node: hi->this->is->the->test->case->program
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
